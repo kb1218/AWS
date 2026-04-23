@@ -1,0 +1,13 @@
+Steps:
+
+Go to AWS Console → Route 53
+Click Hosted Zones → Create Hosted Zone
+Enter:
+Domain name (e.g., example.com)
+Type: Public Hosted Zone
+Note the Name Servers (NS records)
+Go to your domain registrar (e.g., GoDaddy) and update nameservers
+Create a Record:
+Type: A (for EC2) or CNAME (for domain mapping)
+Value: EC2 public IP / Load Balancer DNS
+Save and wait for DNS propagation
