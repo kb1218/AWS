@@ -1,0 +1,11 @@
+Steps:
+
+Go to AWS Console → IAM
+Create User:
+Add username
+Enable programmatic access
+Attach policies (e.g., AdministratorAccess or custom)
+Create Role:
+Choose service (EC2 / Lambda)
+Attach permissions
+Use roles in services (best practice instead of keys)
