@@ -1,0 +1,16 @@
+Steps:
+
+Go to AWS Console → RDS
+Click Create Database
+Choose:
+Engine (MySQL/PostgreSQL)
+Free tier (if applicable)
+Configure:
+DB instance identifier
+Username & password
+Select VPC
+Set Public/Private access
+Configure Security Group
+Launch DB and note Endpoint
+
+Connect using:mysql -h endpoint -u admin -p
