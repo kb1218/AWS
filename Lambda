@@ -1,0 +1,12 @@
+Steps:
+
+Go to AWS Console → Lambda
+Click Create Function
+Choose Author from scratch
+Set:
+Function name
+Runtime (Python/Node.js)
+Write your function code
+Click Deploy
+Add Trigger (API Gateway / S3 / CloudWatch)
+Test using sample event
