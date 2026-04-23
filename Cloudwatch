@@ -1,0 +1,11 @@
+Steps:
+
+Go to AWS Console → CloudWatch
+View Metrics (EC2, Lambda, etc.)
+Create Log Group:
+Store logs from Lambda/EC2
+Create Alarm:
+Select metric (e.g., CPU > 70%)
+Set threshold
+Add notification (SNS)
+Monitor dashboards
