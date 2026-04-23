@@ -1,0 +1,15 @@
+Steps:
+
+Go to AWS Console → EC2
+Click Launch Instance
+Choose:
+AMI (e.g., Amazon Linux)
+Instance type (e.g., t2.micro)
+Configure:
+Select your VPC & Subnet
+Enable Auto-assign Public IP
+Create/Select Key Pair
+Configure Security Group:
+Allow SSH (22), HTTP (80)
+Click Launch Instance
+Connect via SSH
