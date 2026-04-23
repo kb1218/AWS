@@ -1,0 +1,14 @@
+Steps:
+
+Go to AWS Console → VPC Dashboard
+Click Create VPC
+Choose:
+Name tag
+IPv4 CIDR block (e.g., 10.0.0.0/16)
+Create Subnets:
+Public Subnet (for internet access)
+Private Subnet (for backend services)
+Create and attach an Internet Gateway
+Create a Route Table:
+Add route 0.0.0.0/0 → Internet Gateway
+Associate route table with public subnet
