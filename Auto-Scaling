@@ -1,0 +1,19 @@
+Steps:
+
+Go to AWS Console → EC2 → Auto Scaling Groups
+Create a Launch Template:
+AMI
+Instance type
+Security group
+Key pair
+Click Create Auto Scaling Group
+Configure:
+Select VPC & subnets
+Attach Load Balancer (optional but recommended)
+Set:
+Desired capacity
+Min & Max instances
+Add Scaling Policy:
+Example: Add instance if CPU > 70%
+Enable Health Checks
+Review and create
