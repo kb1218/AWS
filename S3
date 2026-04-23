@@ -1,0 +1,12 @@
+Steps:
+
+Go to AWS Console → S3
+Click Create Bucket
+Enter:
+Unique bucket name
+Region
+Configure:
+Block public access (or allow if needed)
+Upload files
+(Optional) Enable Static Website Hosting
+Access via bucket URL
